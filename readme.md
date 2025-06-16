@@ -9,7 +9,7 @@ https://discord.gg/jUmqKWnQKg
 STEPS TO MAKE A SERVER!!!!!
 
 1. create 3 new terminals
-Paste this in the first on
+Paste this in the first one
 
 cd limbo && java -jar server.jar
 
