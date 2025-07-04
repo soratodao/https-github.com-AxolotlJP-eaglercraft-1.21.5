@@ -1,0 +1,452 @@
+config:
+  defaults:
+    prefix: '&b&lCustomArmor&2>>'
+    no-perm: '&cYou do not have permission to run this command!'
+  custom-armor:
+    '1':
+      Item: DIAMOND_BOOTS
+      Amount: 1
+      Meta:
+        Name: '&6Reinforced Diamond Boots'
+        Lore: '&8Tier: &c&lUNIQUE'
+      Enchants:
+        PROTECTION_FALL: 10
+        Protection: 10
+        DURABILITY: 10
+      Effects:
+        DAMAGE_RESISTANCE: 2
+      Craftable: true
+      Recipe:
+        Row1: 'DDD'
+        Row2: DBD
+        Row3: DDD
+        Ingredients:
+          B: DIAMOND_BOOTS
+          D: DIAMOND_BLOCK 
+    
+    '2':
+      Item: DIAMOND_CHESTPLATE
+      Amount: 1
+      Meta:
+        Name: '&6Reinforced Diamond Chestplate'
+        Lore: '&8Tier: &c&lUNIQUE'
+      Enchants:
+        Protection: 10
+        DURABILITY: 10
+      Effects:
+        HEALTH_BOOST: 3
+        DAMAGE_RESISTANCE: 2
+      Craftable: true
+      Recipe:
+        Row1: DDD
+        Row2: DCD
+        Row3: DND
+        Ingredients:
+          D: DIAMOND_BLOCK
+          C: DIAMOND_CHESTPLATE
+          N: NETHER_STAR
+    
+    '3':
+      Item: DIAMOND_LEGGINGS
+      Amount: 1
+      Meta:
+        Name: '&6Reinforced Diamond Leggings'
+        Lore: '&8Tier: &c&lUNIQUE'
+      Enchants:
+        Protection: 10
+        DURABILITY: 10
+      Effects:
+        REGENERATION: 1
+        FIRE_RESISTANCE: 2
+      Craftable: true
+      Recipe:
+        Row1: DGD
+        Row2: GLG
+        Row3: DGD
+        Ingredients:
+          L: DIAMOND_LEGGINGS
+          D: DIAMOND_BLOCK
+          G: Golden_apple
+    
+    '4':
+      Item: DIAMOND_HELMET
+      Amount: 1
+      Meta:
+        Name: '&6Reinforced Diamond Helmet'
+        Lore: '&8Tier: &c&lUNIQUE'
+      Enchants:
+        Protection: 10
+        DURABILITY: 10
+      Effects:
+        WATER_BREATHING: 2
+        NIGHT_VISION: 2
+        HASTE: 2
+      Craftable: true
+      Recipe:
+        Row1: 'DPD'
+        Row2: PHP
+        Row3: DPD
+        Ingredients:
+         D:: DIAMOND_BLOCK
+          H: DIAMOND_HELMET
+          P: Diamond_pickaxe
+    '5':
+      Item: DIAMOND_SWORD
+      Amount: 1
+      Meta:
+        Name: '&6Reinforced Diamond Sword'
+        Lore: '&8Tier: &c&lUNIQUE'
+      Enchants:
+        DAMAGE_ALL: 10
+        Fire_ASPECT: 10
+        LOOTING: 10
+        DURABILITY: 10
+      Effects:
+        INCREASE_DAMAGE: 2
+      Craftable: true
+      Recipe:
+        Row1: 'DDD'
+        Row2: DSD
+        Row3: 'DBD'
+        Ingredients:
+          D: DIAMOND_BLOCK
+          S: DIAMOND_SWORD
+          B: BEACON
+    '6':
+      Item: IRON_PICKAXE
+      Amount: 1
+      Meta:
+        Name: '&bStarter PickAxe'
+        Lore: '&8Tier: &7&lCommon'
+      Enchants:
+        EFFICIENCY: 7
+        Fourtune: 5
+        Unbreaking: 5
+      Effects:
+        Haste: 0
+      Craftable: true
+      Recipe:
+        Row1: 'GIG'
+        Row2: GPG
+        Row3: 'GIG'
+        Ingredients:
+          I: IRON_BLOCK
+          P: IRON_PICKAXE
+          G: GOLD
+    '7':
+      Item: IRON_SWORD
+      Amount: 1
+      Meta:
+        Name: '&bStarter Sword'
+        Lore: '&8Tier: &7&lCommon'
+      Enchants:
+        SHARPNESS: 3
+        Unbreaking: 5
+        Looting: 4
+        Fire_aspect: 1
+      Effects:
+        Speed: 0
+      Craftable: true
+      Recipe:
+        Row1: 'GIG'
+        Row2: GSG
+        Row3: 'GIG'
+        Ingredients:
+          I: IRON_BLOCK
+          S: IRON_SWORD
+          G: GOLD
+    '8':
+      Item: IRON_PICKAXE
+      Amount: 1
+      Meta:
+        Name: '&bStarter Axe'
+        Lore: '&8Tier: &7&lCommon'
+      Enchants:
+        EFFICIENCY: 7
+        Fourtune: 5
+        Unbreaking: 5
+      Effects:
+        Haste: 0
+      Craftable: true
+      Recipe:
+        Row1: 'GIG'
+        Row2: GXG
+        Row3: 'GIG'
+        Ingredients:
+          I: IRON_BLOCK
+          X: IRON_AXE
+          G: GOLD
+    '9':
+      Item: DIAMOND_PICKAXE
+      Amount: 1
+      Meta:
+        Name: '&6Reinforced Diamond Axe'
+        Lore: '&8Tier: &c&lUNIQUE'
+      Enchants:
+        EFFICIENCY: 10
+        Fourtune: 10
+        Unbreaking: 10
+      Effects:
+        Haste: 1
+      Craftable: true
+      Recipe:
+        Row1: 'DED'
+        Row2: EPE
+        Row3: 'DED'
+        Ingredients:
+          D: DIAMOND_BLOCK
+          P: DIAMOND_PICKAXE
+          E: EMERALD
+    '10':
+      Item: DIAMOND_AXE
+      Amount: 1
+      Meta:
+        Name: '&6Reinforced Diamond Axe'
+        Lore: '&8Tier: &c&lUNIQUE
+      Enchants:
+        EFFICIENCY: 10
+        Fourtune: 10
+        Unbreaking: 10
+        SHARPNESS: 7
+      Effects:
+        Haste: 1
+      Craftable: true
+      Recipe:
+        Row1: 'DED'
+        Row2: EXE
+        Row3: 'DED'
+        Ingredients:
+          I: DIAMOND_BLOCK
+          X: DIAMOND_AXE
+          G: EMERALD
+    '11':
+      Item: IRON_CHESTPLATE
+      Amount: 1
+      Meta:
+        Name: '&3Normal Yoroi'
+        Lore: '&8Tier: &7&lCommon'
+      Enchants:
+        Protection: 7
+        Unbreaking: 5
+      Effects:
+        resistance: 0
+        slow: 1
+      Craftable: true
+      Recipe:
+        Row1: 'III'
+        Row2: CCC
+        Row3: 'GGG'
+        Ingredients:
+          I: IRON_BLOCK
+          C: IRON_CHESTPLATE
+          G: GOLD_BLOCK
+    '12':
+      Item: TOTEM_OF_UNDYING
+      Amount: 1
+      Meta:
+        Name: '&eGold Totem'
+        Lore: '&8Tier: &9&lRare'
+      Enchants:
+        Unbreaking: 10
+      Effects:
+        RESISTANCE: 0
+      Craftable: true
+      Recipe:
+        Row1: 'EGE'
+        Row2: GGG
+        Row3: ' G '
+        Ingredients:
+          E: EMERALD
+          G: GOLD
+    '13':
+      Item: BOW
+      Amount: 1
+      Meta:
+        Name: '&6Reinforced Diamond Bow'
+        Lore: '&8Tier: &c&lUNIQUE'
+      Enchants:
+        POQWER: 10
+        INFINITY: 10
+        Unbreaking: 10
+      Effects:
+        SPEED: 2
+      Craftable: true
+      Recipe:
+        Row1: 'DED'
+        Row2: EBE
+        Row3: 'DED'
+        Ingredients:
+          E: EMERALD_BLOCK
+          B: BOW
+          D: DIAMOND_BLOCK
+    '14':
+      Item: BOW
+      Amount: 1
+      Meta:
+        Name: '&3Normal Bow'
+        Lore: '&8Tier: &7&lCommon'
+      Enchants:
+        POQWER: 2
+        INFINITY: 5
+        Unbreaking: 5
+        PUNCH: 1
+      Effects:
+        SPEED: 0
+      Craftable: true
+      Recipe:
+        Row1: 'IGI'
+        Row2: GBG
+        Row3: 'IGI'
+        Ingredients:
+          I: IRON_BLOCK
+          B: BOW
+          G: GOLD
+    '15':
+      Item: DIAMOND_SWORD
+      Amount: 1
+      Meta:
+        Name: '&4&lUNLIMITED Sword'
+        Lore: '&8Tier: &4&lOP'
+      Enchants:
+        SHARPNESS: 20
+        Fire_aspect: 20
+        Unbreaking: 20
+        Looting: 20
+      Effects:
+        STRENGTH: 3
+        RESISTANCE: 2
+      Craftable: true
+      Recipe:
+        Row1: 'NBN'
+        Row2: BSB
+        Row3: 'NBN'
+        Ingredients:
+          S: DIAMOND_SWORD
+          N: Nether_Star
+          B: Beacon
+    '15':
+      Item: BOW
+      Amount: 1
+      Meta:
+        Name: '&4&lUNLIMITED Bow'
+        Lore: '&8Tier: &4&lOP'
+      Enchants:
+        POQWER: 20
+        INFINITY: 20
+        Unbreaking: 20
+        Flame: 20
+      Effects:
+        SPEED: 2
+        RESIATNCE: 5
+      Craftable: true
+      Recipe:
+        Row1: 'NCN'
+        Row2: CBC
+        Row3: 'NCN'
+        Ingredients:
+          C: Beacon
+          B: BOW
+          N: Nether_Star
+    '16':
+      Item: STICK
+      Amount: 1
+      Meta:
+        Name: '&3KnockBack Stick'
+        Lore: '&8Tier: &c&lCommon'
+      Enchants:
+        KNOCKBACK: 5
+        INFINITY: 10
+      Craftable: true
+      Recipe:
+        Row1: 'LLL'
+        Row2: LSL
+        Row3: 'LLL'
+        Ingredients:
+          L: LEATHER
+          S: STICK
+    '17':
+      Item: SWORD
+      Amount: 1
+      Meta:
+        Name: '&5Dragon Blade'
+        Lore: '&8Tier: &4&lR&6&la&b&li&a&ln&e&lb&5&lo&d&lw'
+      Enchants:
+        SHARPNESS: 50
+        Fire_Aspect: 50
+        Unbreaking: 50
+      Effects:
+        STRENGTH: 10
+        RESISTANCE: 10
+      Craftable: true
+      Recipe:
+        Row1: 'NSN'
+        Row2: SDS
+        Row3: 'NSN'
+        Ingredients:
+          N: NETHER_STAR
+          S: DIAMOND_SWORD
+          D: DRAGON_EGG
+    '18':
+      Item: ELYTRA
+      Amount: 1
+      Meta:
+        Name: '&3Wigs'
+        Lore: '&8Tier: &c&lCommon'
+      Enchants:
+        Unbreaking: 10
+      Effects:
+        SLOW: 3
+        Resistance: 1
+      Craftable: true
+      Recipe:
+        Row1: 'CCC'
+        Row2: CLC
+        Row3: 'CCC'
+        Ingredients:
+          L: Leather
+          C: Leather_Chestplate
+    '19':
+      Item: GOLD_PICKAXE
+      Amount: 1
+      Meta:
+        Name: '&5Stonk'
+        Lore: '&8Tier: &c&lUNIQUE'
+      Enchants:
+        Efficiency: 10
+        Fourtune: 10
+        Unbreaking: 1000
+      Effects:
+        SPEED: 2
+        Haste: 2
+      Craftable: true
+      Recipe:
+        Row1: 'NDN'
+        Row2: DPD
+        Row3: 'NDN'
+        Ingredients:
+          N: NETHER_STAR
+          P: DIAMOND_PICKAXE
+          D: DIAMOND_BLOCK
+    '20':
+      Item: BOW
+      Amount: 1
+      Meta:
+        Name: '&6Multi &5Shot &aBow'
+        Lore: '&8Tier: &b&lLegendary'
+      Enchants:
+        POQWER: 10
+        INFINITY: 10
+        Unbreaking: 10
+        MultiShot: 1
+      Effects:
+        SPEED: 1
+      Craftable: true
+      Recipe:
+        Row1: 'DDD'
+        Row2: EBE
+        Row3: 'ENE'
+        Ingredients:
+          N: Nether_Star
+          B: BOW
+          E: EMERALD_BLOCK
+          D: DIAMOND_BLOCK
